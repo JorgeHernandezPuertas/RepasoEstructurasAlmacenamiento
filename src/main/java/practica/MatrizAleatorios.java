@@ -17,10 +17,14 @@ import java.util.Set;
 public class MatrizAleatorios {
 
     public static void main(String[] args) {
+        // Declaro la variable que necesito para el bucle
         int opcion = 0;
 
+        // Bucle del programa
         do {
+            // Pido la opcion
             opcion = pedirOpcion();
+            // Si elige 1 genero la matriz aleatoria
             if (opcion == 1) {
                 int tamano = pedirTamano();
                 int[][] matriz = new int[tamano][tamano];
