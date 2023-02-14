@@ -69,7 +69,8 @@ public class MatrizAleatorios {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 do {
-                    numAleatorio = aleatorio.nextInt(1, (int) Math.pow(matriz.length, 2) + 1);
+                    numAleatorio = aleatorio.nextInt(1, 
+                            (int) Math.pow(matriz.length, 2) + 1);
                 } while (noRepetidos.contains(numAleatorio));
                 noRepetidos.add(numAleatorio);
                 matriz[i][j] = numAleatorio;
