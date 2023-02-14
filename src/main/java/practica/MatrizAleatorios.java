@@ -60,6 +60,7 @@ public class MatrizAleatorios {
             } catch (InputMismatchException ime) {
                 System.out.println("Introduce un numero.");
             }
+            System.out.println("-----------------------------------------------");
             teclado.nextLine(); // Limpio el buffer
         } while (opcion < 1 || opcion > 2);
         
@@ -95,6 +96,7 @@ public class MatrizAleatorios {
             } catch (InputMismatchException ime) {
                 System.out.println("Eso no es un numero.");
             }
+            System.out.println("-----------------------------------------------");
             teclado.nextLine(); // Limpio el buffer
         } while (tamano < 1);
         
